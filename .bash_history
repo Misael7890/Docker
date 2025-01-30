@@ -13,3 +13,11 @@ sudo apt update
 https://localhost:8080
 sudo apt update && sudo apt upgrade -y
 sudo apt update && sudo apt upgrade 
+git init
+git add .
+git comit -m "Docker"
+git commit -m "Docker"
+git remote add origin <https://github.com/Misael7890/Docker.git>
+git commit -m "Docker"
+git branch -M main
+git push -u origin main
