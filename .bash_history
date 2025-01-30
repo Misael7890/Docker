@@ -30,3 +30,16 @@ git commit -m "primer commit"
 git branch -M main
 git remote add origin https://github.com/Misael7890/Docker.git
 git push origin -u main
+git init
+git add .
+git commit -m "Docker"
+git remote add origin <https://github.com/Misael7890/Docker.git>
+http://localhost:8080
+sudo apt update && sudo apt upgrade -y
+apt list --upgradable
+sudo apt update
+sudo apt install git -y
+git --version
+git config --global user.name "Misael Manzo"
+git config --global user.email "misaeloo789@gmail.com"
+cd /Docker
