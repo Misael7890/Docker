@@ -43,3 +43,22 @@ git --version
 git config --global user.name "Misael Manzo"
 git config --global user.email "misaeloo789@gmail.com"
 cd /Docker
+git remote -v
+git remote set-url origin https://github.com/Misael7890/Docker.git
+git config --global credential.helper store
+git push -u origin main
+whoami
+sudo usermod -aG docker $(whoami)
+dcoker run hello-world
+docker run hello-world
+docker build -t mi-server .
+git init
+git status
+git add . 
+git commit "Subiendo proyecto docker"
+git commit -m "Subiendo proyecto"
+git remote add origin https://github.com/Misael7890/Docker.git
+git remote -v
+git remote set-url origin https://https://github.com/Misael7890/Docker.git
+git push -u origin main
+ping github.com
